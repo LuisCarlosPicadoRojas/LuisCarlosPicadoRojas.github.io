@@ -74,10 +74,6 @@ body {
   .links {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-
-  .links {
     font-size: 24px;
     margin: 0 10px;
     color: #007bff;
@@ -85,15 +81,15 @@ body {
     line-height: 1;
     transition: color 0.3s;
   }
-
+  
   .links:active {
-    color: black; 
+    color: black;
   }
-
+  
   .more-link:active {
     color: black;
   }
-
+  
   .icon-container {
     position: relative;
     display: inline-block;
