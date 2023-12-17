@@ -106,6 +106,15 @@ body {
   }
 
   @media (max-width: 480px) {
+    summary::-webkit-details-marker {
+      display: block;
+      font-size: 20px;
+    }
+  
+    summary {
+      padding: 10px;
+      font-size: 16px;
+    }
     .container {
       width: 90%;
     }
