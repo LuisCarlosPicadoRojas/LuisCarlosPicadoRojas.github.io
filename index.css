@@ -104,3 +104,26 @@ body {
     font-size: 11px;
     font-weight: bold;
   }
+
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+    }
+  
+    .project {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .project a {
+      padding: 6px 12px;
+    }
+  
+    header {
+      padding: 15px;
+    }
+  
+    .links {
+      font-size: 24px;
+    }
+  }
